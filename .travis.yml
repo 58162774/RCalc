@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - "iojs"
+  - "lts/*"
+cache:
+  directories:
+  - node_module
+script:
+  - npm test
+  - npm run bui
